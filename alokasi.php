@@ -69,7 +69,7 @@ if( empty( $_SESSION['id_user'] ) ){
 					 </td>';
 				}
 			} else {
-				 echo '<td colspan="8"><center><p class="add">Tidak ada data untuk ditampilkan. <u><a href="?hlm=biaya&aksi=baru">Tambah data baru</a></u> </p></center></td></tr>';
+				 echo '<td colspan="8"><center><p class="add">Tidak ada data untuk ditampilkan. <u><a href="?hlm=alokasi&aksi=baru">Tambah data baru</a></u> </p></center></td></tr>';
 			}
 			echo '
 			 	</tbody>

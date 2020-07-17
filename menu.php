@@ -1,4 +1,5 @@
 <?php
+	session_start();
     if( !empty( $_SESSION['id_user'] ) ){
     include "koneksi.php";
 ?>

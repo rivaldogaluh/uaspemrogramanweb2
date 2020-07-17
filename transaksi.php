@@ -75,13 +75,13 @@ if( empty( $_SESSION['id_user'] ) ){
 						}
 					</script>
 
-					<a href="?hlm=cetak&id_transaksi='.$row['id_transaksi'].'" class="btn btn-info btn-s second" target="_blank">Cetak Nota</a>
+					<a href="?hlm=cetak&id_transaksi='.$row['id_transaksi'].'" class="btn btn-info btn-s second" target="_blank">Cetak Nota</a>';
+					if( $_SESSION['level'] == 1 ){
+					echo'<a href="?hlm=transaksi&aksi=edit&id_transaksi='.$row['id_transaksi'].'" class="btn btn-warning btn-s">Edit</a>
 
-					 <a href="?hlm=transaksi&aksi=edit&id_transaksi='.$row['id_transaksi'].'" class="btn btn-warning btn-s">Edit</a>
-
-					 <a href="?hlm=transaksi&aksi=hapus&submit=yes&id_transaksi='.$row['id_transaksi'].'" class="btn btn-danger btn-s tombol-hapus">Hapus</a>
-
-					 </td>';
+					<a href="?hlm=transaksi&aksi=hapus&submit=yes&id_transaksi='.$row['id_transaksi'].'" class="btn btn-danger btn-s tombol-hapus">Hapus</a>';
+					}
+					echo'</td>';
 				}
 			} else {
 				 echo '<td colspan="8"><center><p class="add">Tidak ada data untuk ditampilkan. <u><a href="?hlm=transaksi&aksi=baru">Tambah data baru</a></u> </p></center></td></tr>';
