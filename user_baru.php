@@ -59,7 +59,7 @@ if( empty( $_SESSION['id_user'] ) ){
 	<div class="form-group">
 		<label for="alamat" class="col-sm-2 control-label">Alamat</label>
 		<div class="col-sm-6">
-			<textarea class="form-control" name="alamat" rows="4" required></textarea>
+			<textarea class="form-control" name="alamat" rows="4" placeholder="Alamat" required></textarea>
 		</div>
 	</div>
 	<div class="form-group">

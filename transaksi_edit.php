@@ -100,6 +100,11 @@ if( empty( $_SESSION['id_user'] ) ){
 		<div class="col-sm-3">
 			<input type="number" class="form-control" id="jumlah_transaksi" name="jumlah_transaksi" value="<?php echo $row['jumlah_transaksi']; ?>" placeholder="Isi dengan angka" required>
 		</div>
+
+		<div class="col-sm-5" style="margin-left: 150px;">
+			<button type="submit" name="submit" class="btn btn-success" style="margin-left: 50px;">Simpan</button>
+			<a href="./admin.php?hlm=transaksi" class="btn btn-danger" style="margin-left: 5px;">Batal</a>
+		</div>
 	</div>
 
 	<div class="form-group">
@@ -112,11 +117,6 @@ if( empty( $_SESSION['id_user'] ) ){
 		<label for="bayar" class="col-sm-2 control-label">Bayar</label>
 		<div class="col-sm-3">
 			<input type="number" class="form-control" id="bayar" name="bayar" value="<?php echo $row['bayar']; ?>" placeholder="Isi dengan angka" required>
-		</div>
-
-		<div class="col-sm-5" style="margin-left: 150px;">
-			<button type="submit" name="submit" class="btn btn-success" style="margin-left: 50px;">Simpan</button>
-			<a href="./admin.php?hlm=transaksi" class="btn btn-danger" style="margin-left: 5px;">Batal</a>
 		</div>
 	</div>
 	<div class="form-group">
