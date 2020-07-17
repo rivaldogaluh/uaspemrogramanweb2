@@ -22,3 +22,5 @@ Username 	: rizkyard   |Password 	: rizky123
 ------------------------------------------------
 
 Pada tabel data transaksi menggunakan perintah query SQL JOIN, query SQL untuk SELECT atau mengambil semua data dari tabel transaksi, INNER JOIN ke tabel jenis_alokasi ON tabel transaksi terdapat id_jenis (foreign key) dihubungkan ke tabel jenis alokasi yang terdapat id_jenis (primary key) ORDER BY atau menampilkan data dari yang terkecil ke yang terbesar. Mysqli_num_rows() untuk menghitung baris apakah terdapat data pada query SQL diatas. Lalu dibuat perulangan menggunakan while untuk menampilkan data transaksi seperti no_nota, jenis_alokasi dan harga yang ada pada tabel jenis_alokasi kini bisa ditampilkan karena sudah JOIN dengan tabel transaksi dengan script query SQL diatas.
+
+Penjelasan fitur aplikasi secara lengkap ada di FILE WORD.
