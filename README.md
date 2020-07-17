@@ -1,5 +1,4 @@
-APLIKASI PENERIMAAN BANTUAN SOSIAL COVID-19
-URL WEBSITE : https://bansoscovid19.000webhostapp.com/
+APLIKASI PENERIMAAN BANTUAN SOSIAL COVID-19 || URL WEBSITE : https://bansoscovid19.000webhostapp.com/
 
 Fitur yang ada pada aplikasi ini yaitu:
 1.	Multiuser administrator dan petugas kasir.
