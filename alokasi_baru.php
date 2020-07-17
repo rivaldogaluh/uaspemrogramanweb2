@@ -49,7 +49,7 @@ if( empty( $_SESSION['id_user'] ) ){
 	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-10">
 			<button type="submit" name="submit" class="btn btn-success">Simpan</button>
-			<a href="./admin.php?hlm=biaya" class="btn btn-danger">Batal</a>
+			<a href="./admin.php?hlm=alokasi" class="btn btn-danger">Batal</a>
 		</div>
 	</div>
 </form>

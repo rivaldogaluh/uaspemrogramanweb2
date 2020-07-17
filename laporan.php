@@ -8,8 +8,8 @@ if( empty( $_SESSION['id_user'] ) ){
       if(isset($_REQUEST['submit'])){
 
 	     $submit = $_REQUEST['submit'];
-         $tgl1 = $_REQUEST['tgl1'];
-         $tgl2 = $_REQUEST['tgl2'];
+	     $tgl1 = $_REQUEST['tgl1'];
+	     $tgl2 = $_REQUEST['tgl2'];
 
 		 $sql = mysqli_query($koneksi, "SELECT * FROM transaksi INNER JOIN jenis_alokasi ON transaksi.id_jenis = jenis_alokasi.harga WHERE tanggal BETWEEN '$tgl1' AND '$tgl2' ORDER BY no_nota ASC");
 		 if(mysqli_num_rows($sql) > 0){

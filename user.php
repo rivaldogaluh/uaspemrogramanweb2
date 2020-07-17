@@ -55,7 +55,7 @@ if( empty( $_SESSION['id_user'] ) ){
 		 	if(mysqli_num_rows($sql) > 0){
 		 		$no = 0;
 
-				 while($row = mysqli_fetch_array($sql)){
+				while($row = mysqli_fetch_array($sql)){
 	 				$no++;
 	 			echo '
 

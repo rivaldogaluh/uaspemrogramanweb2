@@ -121,7 +121,7 @@ if( empty( $_SESSION['id_user'] ) ){
 	<div class="form-group">
 		<label for="jumlah_dana" class="col-sm-2 control-label">Total Harga</label>
 		<div class="col-sm-3">
-			<input type="number" class="form-control" id="jumlah_dana" name="jumlah_dana" placeholder="Total Bayar" required readonly>
+			<input type="number" class="form-control" id="jumlah_dana" name="jumlah_dana" placeholder="Total Harga" required readonly>
 		</div>
 	</div>
 	<div class="form-group">
