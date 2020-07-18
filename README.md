@@ -1,3 +1,5 @@
+NAMA : RIVALDO GALUH PRIHANDONO (171011401570) || 06TPLM008
+
 APLIKASI PENERIMAAN BANTUAN SOSIAL COVID-19 || URL WEBSITE : https://bansoscovid19.000webhostapp.com/
 
 Fitur yang ada pada aplikasi ini yaitu:
